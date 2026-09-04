@@ -21,8 +21,11 @@ obj_sequenc = constructor.plano(lines)
 doc = ezdxf.new()
 msp = doc.modelspace()
 
+total = len(obj_sequenc)
+
 for plaq in obj_sequenc:
-    x, y = layout.get_position(plaq.indice)
+    x, y = layout.get_position_topo_invertido(plaq.indice, total)
     drawer.draw_plaq(msp, plaq, x, y)
 
-doc.saveas("output.dxf")
+doc.saveas("./dxf_files/output.dxf")
+print(f"{total} apartamentos desenhados em output.dxf")
