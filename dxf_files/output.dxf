@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461287.8866435187
+2461287.9203935186
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461287.8866435187
+2461287.9203935186
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-10E
+1EA
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{13CCFE0A-3CBA-40FA-8F95-92BEABA0C86B}
+{FABE7BAF-FC0B-439F-B102-91D353B9009E}
   9
 $VERSIONGUID
   2
-{94DB5675-954F-4298-BE5C-8298BA9E9DBF}
+{C838E3B4-5D17-4C49-A0B4-9919FECFD1B1}
   9
 $EXTNAMES
 290
@@ -1705,7 +1705,7 @@ ACAD
   0
 APPID
   5
-10B
+1E7
 330
 3
 100
@@ -1719,7 +1719,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-10C
+1E8
 330
 3
 100
@@ -2093,9 +2093,53 @@ APTO 100
   7
 Arial
   0
-LWPOLYLINE
+CIRCLE
   5
 31
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+32
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+LWPOLYLINE
+  5
+33
 330
 17
 100
@@ -2133,7 +2177,7 @@ AcDbPolyline
   0
 MTEXT
   5
-32
+34
 330
 17
 100
@@ -2159,9 +2203,53 @@ APTO 101
   7
 Arial
   0
+CIRCLE
+  5
+35
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+36
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-33
+37
 330
 17
 100
@@ -2199,7 +2287,7 @@ AcDbPolyline
   0
 MTEXT
   5
-34
+38
 330
 17
 100
@@ -2225,9 +2313,53 @@ APTO 102
   7
 Arial
   0
+CIRCLE
+  5
+39
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+3A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-35
+3B
 330
 17
 100
@@ -2265,7 +2397,7 @@ AcDbPolyline
   0
 MTEXT
   5
-36
+3C
 330
 17
 100
@@ -2291,9 +2423,53 @@ APTO 103
   7
 Arial
   0
+CIRCLE
+  5
+3D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+3E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-37
+3F
 330
 17
 100
@@ -2331,7 +2507,7 @@ AcDbPolyline
   0
 MTEXT
   5
-38
+40
 330
 17
 100
@@ -2357,9 +2533,53 @@ APTO 104
   7
 Arial
   0
+CIRCLE
+  5
+41
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+42
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-39
+43
 330
 17
 100
@@ -2397,7 +2617,7 @@ AcDbPolyline
   0
 MTEXT
   5
-3A
+44
 330
 17
 100
@@ -2423,9 +2643,53 @@ APTO 105
   7
 Arial
   0
+CIRCLE
+  5
+45
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+46
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-3B
+47
 330
 17
 100
@@ -2463,7 +2727,7 @@ AcDbPolyline
   0
 MTEXT
   5
-3C
+48
 330
 17
 100
@@ -2489,9 +2753,53 @@ APTO 106
   7
 Arial
   0
+CIRCLE
+  5
+49
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+4A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-3D
+4B
 330
 17
 100
@@ -2529,7 +2837,7 @@ AcDbPolyline
   0
 MTEXT
   5
-3E
+4C
 330
 17
 100
@@ -2555,9 +2863,53 @@ APTO 107
   7
 Arial
   0
+CIRCLE
+  5
+4D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+4E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-3F
+4F
 330
 17
 100
@@ -2595,7 +2947,7 @@ AcDbPolyline
   0
 MTEXT
   5
-40
+50
 330
 17
 100
@@ -2621,9 +2973,53 @@ APTO 108
   7
 Arial
   0
+CIRCLE
+  5
+51
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+52
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-41
+53
 330
 17
 100
@@ -2661,7 +3057,7 @@ AcDbPolyline
   0
 MTEXT
   5
-42
+54
 330
 17
 100
@@ -2687,9 +3083,53 @@ APTO 109
   7
 Arial
   0
+CIRCLE
+  5
+55
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+56
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-43
+57
 330
 17
 100
@@ -2727,7 +3167,7 @@ AcDbPolyline
   0
 MTEXT
   5
-44
+58
 330
 17
 100
@@ -2753,9 +3193,53 @@ APTO 110
   7
 Arial
   0
+CIRCLE
+  5
+59
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+5A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-45
+5B
 330
 17
 100
@@ -2793,7 +3277,7 @@ AcDbPolyline
   0
 MTEXT
   5
-46
+5C
 330
 17
 100
@@ -2819,9 +3303,53 @@ APTO 200
   7
 Arial
   0
+CIRCLE
+  5
+5D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+5E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-127.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-47
+5F
 330
 17
 100
@@ -2859,7 +3387,7 @@ AcDbPolyline
   0
 MTEXT
   5
-48
+60
 330
 17
 100
@@ -2885,9 +3413,53 @@ APTO 201
   7
 Arial
   0
+CIRCLE
+  5
+61
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+62
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-49
+63
 330
 17
 100
@@ -2925,7 +3497,7 @@ AcDbPolyline
   0
 MTEXT
   5
-4A
+64
 330
 17
 100
@@ -2951,9 +3523,53 @@ APTO 202
   7
 Arial
   0
+CIRCLE
+  5
+65
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+66
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-4B
+67
 330
 17
 100
@@ -2991,7 +3607,7 @@ AcDbPolyline
   0
 MTEXT
   5
-4C
+68
 330
 17
 100
@@ -3017,9 +3633,53 @@ APTO 203
   7
 Arial
   0
+CIRCLE
+  5
+69
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+6A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-4D
+6B
 330
 17
 100
@@ -3057,7 +3717,7 @@ AcDbPolyline
   0
 MTEXT
   5
-4E
+6C
 330
 17
 100
@@ -3083,9 +3743,53 @@ APTO 204
   7
 Arial
   0
+CIRCLE
+  5
+6D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+6E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-4F
+6F
 330
 17
 100
@@ -3123,7 +3827,7 @@ AcDbPolyline
   0
 MTEXT
   5
-50
+70
 330
 17
 100
@@ -3149,9 +3853,53 @@ APTO 205
   7
 Arial
   0
+CIRCLE
+  5
+71
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+72
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-51
+73
 330
 17
 100
@@ -3189,7 +3937,7 @@ AcDbPolyline
   0
 MTEXT
   5
-52
+74
 330
 17
 100
@@ -3215,9 +3963,53 @@ APTO 206
   7
 Arial
   0
+CIRCLE
+  5
+75
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+76
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-53
+77
 330
 17
 100
@@ -3255,7 +4047,7 @@ AcDbPolyline
   0
 MTEXT
   5
-54
+78
 330
 17
 100
@@ -3281,9 +4073,53 @@ APTO 207
   7
 Arial
   0
+CIRCLE
+  5
+79
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+7A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-55
+7B
 330
 17
 100
@@ -3321,7 +4157,7 @@ AcDbPolyline
   0
 MTEXT
   5
-56
+7C
 330
 17
 100
@@ -3347,9 +4183,53 @@ APTO 208
   7
 Arial
   0
+CIRCLE
+  5
+7D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+7E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-57
+7F
 330
 17
 100
@@ -3387,7 +4267,7 @@ AcDbPolyline
   0
 MTEXT
   5
-58
+80
 330
 17
 100
@@ -3413,9 +4293,53 @@ APTO 209
   7
 Arial
   0
+CIRCLE
+  5
+81
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+82
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-59
+83
 330
 17
 100
@@ -3453,7 +4377,7 @@ AcDbPolyline
   0
 MTEXT
   5
-5A
+84
 330
 17
 100
@@ -3479,9 +4403,53 @@ APTO 210
   7
 Arial
   0
+CIRCLE
+  5
+85
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+86
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-5B
+87
 330
 17
 100
@@ -3519,7 +4487,7 @@ AcDbPolyline
   0
 MTEXT
   5
-5C
+88
 330
 17
 100
@@ -3545,9 +4513,53 @@ APTO 300
   7
 Arial
   0
+CIRCLE
+  5
+89
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+8A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-5D
+8B
 330
 17
 100
@@ -3585,7 +4597,7 @@ AcDbPolyline
   0
 MTEXT
   5
-5E
+8C
 330
 17
 100
@@ -3611,9 +4623,53 @@ APTO 301
   7
 Arial
   0
+CIRCLE
+  5
+8D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+8E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-112.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-5F
+8F
 330
 17
 100
@@ -3651,7 +4707,7 @@ AcDbPolyline
   0
 MTEXT
   5
-60
+90
 330
 17
 100
@@ -3677,9 +4733,53 @@ APTO 302
   7
 Arial
   0
+CIRCLE
+  5
+91
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+92
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-61
+93
 330
 17
 100
@@ -3717,7 +4817,7 @@ AcDbPolyline
   0
 MTEXT
   5
-62
+94
 330
 17
 100
@@ -3743,9 +4843,53 @@ APTO 303
   7
 Arial
   0
+CIRCLE
+  5
+95
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+96
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-63
+97
 330
 17
 100
@@ -3783,7 +4927,7 @@ AcDbPolyline
   0
 MTEXT
   5
-64
+98
 330
 17
 100
@@ -3809,9 +4953,53 @@ APTO 304
   7
 Arial
   0
+CIRCLE
+  5
+99
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+9A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-65
+9B
 330
 17
 100
@@ -3849,7 +5037,7 @@ AcDbPolyline
   0
 MTEXT
   5
-66
+9C
 330
 17
 100
@@ -3875,9 +5063,53 @@ APTO 305
   7
 Arial
   0
+CIRCLE
+  5
+9D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+9E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-67
+9F
 330
 17
 100
@@ -3915,7 +5147,7 @@ AcDbPolyline
   0
 MTEXT
   5
-68
+A0
 330
 17
 100
@@ -3941,9 +5173,53 @@ APTO 306
   7
 Arial
   0
+CIRCLE
+  5
+A1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+A2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-69
+A3
 330
 17
 100
@@ -3981,7 +5257,7 @@ AcDbPolyline
   0
 MTEXT
   5
-6A
+A4
 330
 17
 100
@@ -4007,9 +5283,53 @@ APTO 307
   7
 Arial
   0
+CIRCLE
+  5
+A5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+A6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-6B
+A7
 330
 17
 100
@@ -4047,7 +5367,7 @@ AcDbPolyline
   0
 MTEXT
   5
-6C
+A8
 330
 17
 100
@@ -4073,9 +5393,53 @@ APTO 308
   7
 Arial
   0
+CIRCLE
+  5
+A9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+AA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-6D
+AB
 330
 17
 100
@@ -4113,7 +5477,7 @@ AcDbPolyline
   0
 MTEXT
   5
-6E
+AC
 330
 17
 100
@@ -4139,9 +5503,53 @@ APTO 309
   7
 Arial
   0
+CIRCLE
+  5
+AD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+AE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-6F
+AF
 330
 17
 100
@@ -4179,7 +5587,7 @@ AcDbPolyline
   0
 MTEXT
   5
-70
+B0
 330
 17
 100
@@ -4205,9 +5613,53 @@ APTO 310
   7
 Arial
   0
+CIRCLE
+  5
+B1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+B2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-71
+B3
 330
 17
 100
@@ -4245,7 +5697,7 @@ AcDbPolyline
   0
 MTEXT
   5
-72
+B4
 330
 17
 100
@@ -4271,9 +5723,53 @@ APTO 400
   7
 Arial
   0
+CIRCLE
+  5
+B5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+B6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-73
+B7
 330
 17
 100
@@ -4311,7 +5807,7 @@ AcDbPolyline
   0
 MTEXT
   5
-74
+B8
 330
 17
 100
@@ -4337,9 +5833,53 @@ APTO 401
   7
 Arial
   0
+CIRCLE
+  5
+B9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+BA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-75
+BB
 330
 17
 100
@@ -4377,7 +5917,7 @@ AcDbPolyline
   0
 MTEXT
   5
-76
+BC
 330
 17
 100
@@ -4403,9 +5943,53 @@ APTO 402
   7
 Arial
   0
+CIRCLE
+  5
+BD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+BE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-97.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-77
+BF
 330
 17
 100
@@ -4443,7 +6027,7 @@ AcDbPolyline
   0
 MTEXT
   5
-78
+C0
 330
 17
 100
@@ -4469,9 +6053,53 @@ APTO 403
   7
 Arial
   0
+CIRCLE
+  5
+C1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+C2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-79
+C3
 330
 17
 100
@@ -4509,7 +6137,7 @@ AcDbPolyline
   0
 MTEXT
   5
-7A
+C4
 330
 17
 100
@@ -4535,9 +6163,53 @@ APTO 404
   7
 Arial
   0
+CIRCLE
+  5
+C5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+C6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-7B
+C7
 330
 17
 100
@@ -4575,7 +6247,7 @@ AcDbPolyline
   0
 MTEXT
   5
-7C
+C8
 330
 17
 100
@@ -4601,9 +6273,53 @@ APTO 405
   7
 Arial
   0
+CIRCLE
+  5
+C9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+CA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-7D
+CB
 330
 17
 100
@@ -4641,7 +6357,7 @@ AcDbPolyline
   0
 MTEXT
   5
-7E
+CC
 330
 17
 100
@@ -4667,9 +6383,53 @@ APTO 406
   7
 Arial
   0
+CIRCLE
+  5
+CD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+CE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-7F
+CF
 330
 17
 100
@@ -4707,7 +6467,7 @@ AcDbPolyline
   0
 MTEXT
   5
-80
+D0
 330
 17
 100
@@ -4733,9 +6493,53 @@ APTO 407
   7
 Arial
   0
+CIRCLE
+  5
+D1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+D2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-81
+D3
 330
 17
 100
@@ -4773,7 +6577,7 @@ AcDbPolyline
   0
 MTEXT
   5
-82
+D4
 330
 17
 100
@@ -4799,9 +6603,53 @@ APTO 408
   7
 Arial
   0
+CIRCLE
+  5
+D5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+D6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-83
+D7
 330
 17
 100
@@ -4839,7 +6687,7 @@ AcDbPolyline
   0
 MTEXT
   5
-84
+D8
 330
 17
 100
@@ -4865,9 +6713,53 @@ APTO 409
   7
 Arial
   0
+CIRCLE
+  5
+D9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+DA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-85
+DB
 330
 17
 100
@@ -4905,7 +6797,7 @@ AcDbPolyline
   0
 MTEXT
   5
-86
+DC
 330
 17
 100
@@ -4931,9 +6823,53 @@ APTO 410
   7
 Arial
   0
+CIRCLE
+  5
+DD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+DE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-87
+DF
 330
 17
 100
@@ -4971,7 +6907,7 @@ AcDbPolyline
   0
 MTEXT
   5
-88
+E0
 330
 17
 100
@@ -4997,9 +6933,53 @@ APTO 500
   7
 Arial
   0
+CIRCLE
+  5
+E1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+E2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-89
+E3
 330
 17
 100
@@ -5037,7 +7017,7 @@ AcDbPolyline
   0
 MTEXT
   5
-8A
+E4
 330
 17
 100
@@ -5063,9 +7043,53 @@ APTO 501
   7
 Arial
   0
+CIRCLE
+  5
+E5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+E6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-8B
+E7
 330
 17
 100
@@ -5103,7 +7127,7 @@ AcDbPolyline
   0
 MTEXT
   5
-8C
+E8
 330
 17
 100
@@ -5129,9 +7153,53 @@ APTO 502
   7
 Arial
   0
+CIRCLE
+  5
+E9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+EA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-8D
+EB
 330
 17
 100
@@ -5169,7 +7237,7 @@ AcDbPolyline
   0
 MTEXT
   5
-8E
+EC
 330
 17
 100
@@ -5195,9 +7263,53 @@ APTO 503
   7
 Arial
   0
+CIRCLE
+  5
+ED
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+EE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-82.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-8F
+EF
 330
 17
 100
@@ -5235,7 +7347,7 @@ AcDbPolyline
   0
 MTEXT
   5
-90
+F0
 330
 17
 100
@@ -5261,9 +7373,53 @@ APTO 504
   7
 Arial
   0
+CIRCLE
+  5
+F1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+F2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-91
+F3
 330
 17
 100
@@ -5301,7 +7457,7 @@ AcDbPolyline
   0
 MTEXT
   5
-92
+F4
 330
 17
 100
@@ -5327,9 +7483,53 @@ APTO 505
   7
 Arial
   0
+CIRCLE
+  5
+F5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+F6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-93
+F7
 330
 17
 100
@@ -5367,7 +7567,7 @@ AcDbPolyline
   0
 MTEXT
   5
-94
+F8
 330
 17
 100
@@ -5393,9 +7593,53 @@ APTO 506
   7
 Arial
   0
+CIRCLE
+  5
+F9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+FA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-95
+FB
 330
 17
 100
@@ -5433,7 +7677,7 @@ AcDbPolyline
   0
 MTEXT
   5
-96
+FC
 330
 17
 100
@@ -5459,9 +7703,53 @@ APTO 507
   7
 Arial
   0
+CIRCLE
+  5
+FD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+FE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-97
+FF
 330
 17
 100
@@ -5499,7 +7787,7 @@ AcDbPolyline
   0
 MTEXT
   5
-98
+100
 330
 17
 100
@@ -5525,9 +7813,53 @@ APTO 508
   7
 Arial
   0
+CIRCLE
+  5
+101
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+102
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-99
+103
 330
 17
 100
@@ -5565,7 +7897,7 @@ AcDbPolyline
   0
 MTEXT
   5
-9A
+104
 330
 17
 100
@@ -5591,9 +7923,53 @@ APTO 509
   7
 Arial
   0
+CIRCLE
+  5
+105
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+106
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-9B
+107
 330
 17
 100
@@ -5631,7 +8007,7 @@ AcDbPolyline
   0
 MTEXT
   5
-9C
+108
 330
 17
 100
@@ -5657,9 +8033,53 @@ APTO 510
   7
 Arial
   0
+CIRCLE
+  5
+109
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+10A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-9D
+10B
 330
 17
 100
@@ -5697,7 +8117,7 @@ AcDbPolyline
   0
 MTEXT
   5
-9E
+10C
 330
 17
 100
@@ -5723,9 +8143,53 @@ APTO 600
   7
 Arial
   0
+CIRCLE
+  5
+10D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+10E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-9F
+10F
 330
 17
 100
@@ -5763,7 +8227,7 @@ AcDbPolyline
   0
 MTEXT
   5
-A0
+110
 330
 17
 100
@@ -5789,9 +8253,53 @@ APTO 601
   7
 Arial
   0
+CIRCLE
+  5
+111
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+112
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-A1
+113
 330
 17
 100
@@ -5829,7 +8337,7 @@ AcDbPolyline
   0
 MTEXT
   5
-A2
+114
 330
 17
 100
@@ -5855,9 +8363,53 @@ APTO 602
   7
 Arial
   0
+CIRCLE
+  5
+115
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+116
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-A3
+117
 330
 17
 100
@@ -5895,7 +8447,7 @@ AcDbPolyline
   0
 MTEXT
   5
-A4
+118
 330
 17
 100
@@ -5921,9 +8473,53 @@ APTO 603
   7
 Arial
   0
+CIRCLE
+  5
+119
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+11A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-A5
+11B
 330
 17
 100
@@ -5961,7 +8557,7 @@ AcDbPolyline
   0
 MTEXT
   5
-A6
+11C
 330
 17
 100
@@ -5987,9 +8583,53 @@ APTO 604
   7
 Arial
   0
+CIRCLE
+  5
+11D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+11E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-67.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-A7
+11F
 330
 17
 100
@@ -6027,7 +8667,7 @@ AcDbPolyline
   0
 MTEXT
   5
-A8
+120
 330
 17
 100
@@ -6053,9 +8693,53 @@ APTO 605
   7
 Arial
   0
+CIRCLE
+  5
+121
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+122
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-A9
+123
 330
 17
 100
@@ -6093,7 +8777,7 @@ AcDbPolyline
   0
 MTEXT
   5
-AA
+124
 330
 17
 100
@@ -6119,9 +8803,53 @@ APTO 606
   7
 Arial
   0
+CIRCLE
+  5
+125
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+126
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-AB
+127
 330
 17
 100
@@ -6159,7 +8887,7 @@ AcDbPolyline
   0
 MTEXT
   5
-AC
+128
 330
 17
 100
@@ -6185,9 +8913,53 @@ APTO 607
   7
 Arial
   0
+CIRCLE
+  5
+129
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+12A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-AD
+12B
 330
 17
 100
@@ -6225,7 +8997,7 @@ AcDbPolyline
   0
 MTEXT
   5
-AE
+12C
 330
 17
 100
@@ -6251,9 +9023,53 @@ APTO 608
   7
 Arial
   0
+CIRCLE
+  5
+12D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+12E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-AF
+12F
 330
 17
 100
@@ -6291,7 +9107,7 @@ AcDbPolyline
   0
 MTEXT
   5
-B0
+130
 330
 17
 100
@@ -6317,9 +9133,53 @@ APTO 609
   7
 Arial
   0
+CIRCLE
+  5
+131
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+132
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-B1
+133
 330
 17
 100
@@ -6357,7 +9217,7 @@ AcDbPolyline
   0
 MTEXT
   5
-B2
+134
 330
 17
 100
@@ -6383,9 +9243,53 @@ APTO 610
   7
 Arial
   0
+CIRCLE
+  5
+135
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+136
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-B3
+137
 330
 17
 100
@@ -6423,7 +9327,7 @@ AcDbPolyline
   0
 MTEXT
   5
-B4
+138
 330
 17
 100
@@ -6449,9 +9353,53 @@ APTO 700
   7
 Arial
   0
+CIRCLE
+  5
+139
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+13A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-B5
+13B
 330
 17
 100
@@ -6489,7 +9437,7 @@ AcDbPolyline
   0
 MTEXT
   5
-B6
+13C
 330
 17
 100
@@ -6515,9 +9463,53 @@ APTO 701
   7
 Arial
   0
+CIRCLE
+  5
+13D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+13E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-B7
+13F
 330
 17
 100
@@ -6555,7 +9547,7 @@ AcDbPolyline
   0
 MTEXT
   5
-B8
+140
 330
 17
 100
@@ -6581,9 +9573,53 @@ APTO 702
   7
 Arial
   0
+CIRCLE
+  5
+141
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+142
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-B9
+143
 330
 17
 100
@@ -6621,7 +9657,7 @@ AcDbPolyline
   0
 MTEXT
   5
-BA
+144
 330
 17
 100
@@ -6647,9 +9683,53 @@ APTO 703
   7
 Arial
   0
+CIRCLE
+  5
+145
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+146
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-BB
+147
 330
 17
 100
@@ -6687,7 +9767,7 @@ AcDbPolyline
   0
 MTEXT
   5
-BC
+148
 330
 17
 100
@@ -6713,9 +9793,53 @@ APTO 704
   7
 Arial
   0
+CIRCLE
+  5
+149
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+14A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-BD
+14B
 330
 17
 100
@@ -6753,7 +9877,7 @@ AcDbPolyline
   0
 MTEXT
   5
-BE
+14C
 330
 17
 100
@@ -6779,9 +9903,53 @@ APTO 705
   7
 Arial
   0
+CIRCLE
+  5
+14D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+14E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-52.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-BF
+14F
 330
 17
 100
@@ -6819,7 +9987,7 @@ AcDbPolyline
   0
 MTEXT
   5
-C0
+150
 330
 17
 100
@@ -6845,9 +10013,53 @@ APTO 706
   7
 Arial
   0
+CIRCLE
+  5
+151
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+152
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-C1
+153
 330
 17
 100
@@ -6885,7 +10097,7 @@ AcDbPolyline
   0
 MTEXT
   5
-C2
+154
 330
 17
 100
@@ -6911,9 +10123,53 @@ APTO 707
   7
 Arial
   0
+CIRCLE
+  5
+155
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+156
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-C3
+157
 330
 17
 100
@@ -6951,7 +10207,7 @@ AcDbPolyline
   0
 MTEXT
   5
-C4
+158
 330
 17
 100
@@ -6977,9 +10233,53 @@ APTO 708
   7
 Arial
   0
+CIRCLE
+  5
+159
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+15A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-C5
+15B
 330
 17
 100
@@ -7017,7 +10317,7 @@ AcDbPolyline
   0
 MTEXT
   5
-C6
+15C
 330
 17
 100
@@ -7043,9 +10343,53 @@ APTO 709
   7
 Arial
   0
+CIRCLE
+  5
+15D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+15E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-C7
+15F
 330
 17
 100
@@ -7083,7 +10427,7 @@ AcDbPolyline
   0
 MTEXT
   5
-C8
+160
 330
 17
 100
@@ -7109,9 +10453,53 @@ APTO 710
   7
 Arial
   0
+CIRCLE
+  5
+161
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+162
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-C9
+163
 330
 17
 100
@@ -7149,7 +10537,7 @@ AcDbPolyline
   0
 MTEXT
   5
-CA
+164
 330
 17
 100
@@ -7175,9 +10563,53 @@ APTO 800
   7
 Arial
   0
+CIRCLE
+  5
+165
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+166
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-CB
+167
 330
 17
 100
@@ -7215,7 +10647,7 @@ AcDbPolyline
   0
 MTEXT
   5
-CC
+168
 330
 17
 100
@@ -7241,9 +10673,53 @@ APTO 801
   7
 Arial
   0
+CIRCLE
+  5
+169
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+16A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-CD
+16B
 330
 17
 100
@@ -7281,7 +10757,7 @@ AcDbPolyline
   0
 MTEXT
   5
-CE
+16C
 330
 17
 100
@@ -7307,9 +10783,53 @@ APTO 802
   7
 Arial
   0
+CIRCLE
+  5
+16D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+16E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-CF
+16F
 330
 17
 100
@@ -7347,7 +10867,7 @@ AcDbPolyline
   0
 MTEXT
   5
-D0
+170
 330
 17
 100
@@ -7373,9 +10893,53 @@ APTO 803
   7
 Arial
   0
+CIRCLE
+  5
+171
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+172
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-D1
+173
 330
 17
 100
@@ -7413,7 +10977,7 @@ AcDbPolyline
   0
 MTEXT
   5
-D2
+174
 330
 17
 100
@@ -7439,9 +11003,53 @@ APTO 804
   7
 Arial
   0
+CIRCLE
+  5
+175
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+176
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-D3
+177
 330
 17
 100
@@ -7479,7 +11087,7 @@ AcDbPolyline
   0
 MTEXT
   5
-D4
+178
 330
 17
 100
@@ -7505,9 +11113,53 @@ APTO 805
   7
 Arial
   0
+CIRCLE
+  5
+179
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+17A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-D5
+17B
 330
 17
 100
@@ -7545,7 +11197,7 @@ AcDbPolyline
   0
 MTEXT
   5
-D6
+17C
 330
 17
 100
@@ -7571,9 +11223,53 @@ APTO 806
   7
 Arial
   0
+CIRCLE
+  5
+17D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+17E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-37.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-D7
+17F
 330
 17
 100
@@ -7611,7 +11307,7 @@ AcDbPolyline
   0
 MTEXT
   5
-D8
+180
 330
 17
 100
@@ -7637,9 +11333,53 @@ APTO 807
   7
 Arial
   0
+CIRCLE
+  5
+181
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+182
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-D9
+183
 330
 17
 100
@@ -7677,7 +11417,7 @@ AcDbPolyline
   0
 MTEXT
   5
-DA
+184
 330
 17
 100
@@ -7703,9 +11443,53 @@ APTO 808
   7
 Arial
   0
+CIRCLE
+  5
+185
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+186
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-DB
+187
 330
 17
 100
@@ -7743,7 +11527,7 @@ AcDbPolyline
   0
 MTEXT
   5
-DC
+188
 330
 17
 100
@@ -7769,9 +11553,53 @@ APTO 809
   7
 Arial
   0
+CIRCLE
+  5
+189
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+18A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-DD
+18B
 330
 17
 100
@@ -7809,7 +11637,7 @@ AcDbPolyline
   0
 MTEXT
   5
-DE
+18C
 330
 17
 100
@@ -7835,9 +11663,53 @@ APTO 810
   7
 Arial
   0
+CIRCLE
+  5
+18D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+18E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-DF
+18F
 330
 17
 100
@@ -7875,7 +11747,7 @@ AcDbPolyline
   0
 MTEXT
   5
-E0
+190
 330
 17
 100
@@ -7901,9 +11773,53 @@ APTO 900
   7
 Arial
   0
+CIRCLE
+  5
+191
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+192
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-E1
+193
 330
 17
 100
@@ -7941,7 +11857,7 @@ AcDbPolyline
   0
 MTEXT
   5
-E2
+194
 330
 17
 100
@@ -7967,9 +11883,53 @@ APTO 901
   7
 Arial
   0
+CIRCLE
+  5
+195
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+196
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-E3
+197
 330
 17
 100
@@ -8007,7 +11967,7 @@ AcDbPolyline
   0
 MTEXT
   5
-E4
+198
 330
 17
 100
@@ -8033,9 +11993,53 @@ APTO 902
   7
 Arial
   0
+CIRCLE
+  5
+199
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+19A
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-E5
+19B
 330
 17
 100
@@ -8073,7 +12077,7 @@ AcDbPolyline
   0
 MTEXT
   5
-E6
+19C
 330
 17
 100
@@ -8099,9 +12103,53 @@ APTO 903
   7
 Arial
   0
+CIRCLE
+  5
+19D
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+19E
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-E7
+19F
 330
 17
 100
@@ -8139,7 +12187,7 @@ AcDbPolyline
   0
 MTEXT
   5
-E8
+1A0
 330
 17
 100
@@ -8165,9 +12213,53 @@ APTO 904
   7
 Arial
   0
+CIRCLE
+  5
+1A1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1A2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-E9
+1A3
 330
 17
 100
@@ -8205,7 +12297,7 @@ AcDbPolyline
   0
 MTEXT
   5
-EA
+1A4
 330
 17
 100
@@ -8231,9 +12323,53 @@ APTO 905
   7
 Arial
   0
+CIRCLE
+  5
+1A5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1A6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-EB
+1A7
 330
 17
 100
@@ -8271,7 +12407,7 @@ AcDbPolyline
   0
 MTEXT
   5
-EC
+1A8
 330
 17
 100
@@ -8297,9 +12433,53 @@ APTO 906
   7
 Arial
   0
+CIRCLE
+  5
+1A9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1AA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-ED
+1AB
 330
 17
 100
@@ -8337,7 +12517,7 @@ AcDbPolyline
   0
 MTEXT
   5
-EE
+1AC
 330
 17
 100
@@ -8363,9 +12543,53 @@ APTO 907
   7
 Arial
   0
+CIRCLE
+  5
+1AD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1AE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-22.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-EF
+1AF
 330
 17
 100
@@ -8403,7 +12627,7 @@ AcDbPolyline
   0
 MTEXT
   5
-F0
+1B0
 330
 17
 100
@@ -8429,9 +12653,53 @@ APTO 908
   7
 Arial
   0
+CIRCLE
+  5
+1B1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1B2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-F1
+1B3
 330
 17
 100
@@ -8469,7 +12737,7 @@ AcDbPolyline
   0
 MTEXT
   5
-F2
+1B4
 330
 17
 100
@@ -8495,9 +12763,53 @@ APTO 909
   7
 Arial
   0
+CIRCLE
+  5
+1B5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1B6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-F3
+1B7
 330
 17
 100
@@ -8535,7 +12847,7 @@ AcDbPolyline
   0
 MTEXT
   5
-F4
+1B8
 330
 17
 100
@@ -8561,9 +12873,53 @@ APTO 910
   7
 Arial
   0
+CIRCLE
+  5
+1B9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+103.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1BA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+1613.598
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-F5
+1BB
 330
 17
 100
@@ -8601,7 +12957,7 @@ AcDbPolyline
   0
 MTEXT
   5
-F6
+1BC
 330
 17
 100
@@ -8627,9 +12983,53 @@ APTO 1000
   7
 Arial
   0
+CIRCLE
+  5
+1BD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+153.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1BE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+2396.898
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-F7
+1BF
 330
 17
 100
@@ -8667,7 +13067,7 @@ AcDbPolyline
   0
 MTEXT
   5
-F8
+1C0
 330
 17
 100
@@ -8693,9 +13093,53 @@ APTO 1001
   7
 Arial
   0
+CIRCLE
+  5
+1C1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+203.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1C2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3180.198
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-F9
+1C3
 330
 17
 100
@@ -8733,7 +13177,7 @@ AcDbPolyline
   0
 MTEXT
   5
-FA
+1C4
 330
 17
 100
@@ -8759,9 +13203,53 @@ APTO 1002
   7
 Arial
   0
+CIRCLE
+  5
+1C5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+253.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1C6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3963.498
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-FB
+1C7
 330
 17
 100
@@ -8799,7 +13287,7 @@ AcDbPolyline
   0
 MTEXT
   5
-FC
+1C8
 330
 17
 100
@@ -8825,9 +13313,53 @@ APTO 1003
   7
 Arial
   0
+CIRCLE
+  5
+1C9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+303.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1CA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+4746.798
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-FD
+1CB
 330
 17
 100
@@ -8865,7 +13397,7 @@ AcDbPolyline
   0
 MTEXT
   5
-FE
+1CC
 330
 17
 100
@@ -8891,9 +13423,53 @@ APTO 1004
   7
 Arial
   0
+CIRCLE
+  5
+1CD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+353.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1CE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+5530.098
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-FF
+1CF
 330
 17
 100
@@ -8931,7 +13507,7 @@ AcDbPolyline
   0
 MTEXT
   5
-100
+1D0
 330
 17
 100
@@ -8957,9 +13533,53 @@ APTO 1005
   7
 Arial
   0
+CIRCLE
+  5
+1D1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+403.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1D2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+6313.398
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-101
+1D3
 330
 17
 100
@@ -8997,7 +13617,7 @@ AcDbPolyline
   0
 MTEXT
   5
-102
+1D4
 330
 17
 100
@@ -9023,9 +13643,53 @@ APTO 1006
   7
 Arial
   0
+CIRCLE
+  5
+1D5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+453.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1D6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7096.698
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-103
+1D7
 330
 17
 100
@@ -9063,7 +13727,7 @@ AcDbPolyline
   0
 MTEXT
   5
-104
+1D8
 330
 17
 100
@@ -9089,9 +13753,53 @@ APTO 1007
   7
 Arial
   0
+CIRCLE
+  5
+1D9
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+503.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1DA
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+7879.9980000000005
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-105
+1DB
 330
 17
 100
@@ -9129,7 +13837,7 @@ AcDbPolyline
   0
 MTEXT
   5
-106
+1DC
 330
 17
 100
@@ -9155,9 +13863,53 @@ APTO 1008
   7
 Arial
   0
+CIRCLE
+  5
+1DD
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+553.0
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1DE
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+8663.298
+ 20
+-7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-107
+1DF
 330
 17
 100
@@ -9195,7 +13947,7 @@ AcDbPolyline
   0
 MTEXT
   5
-108
+1E0
 330
 17
 100
@@ -9221,9 +13973,53 @@ APTO 1009
   7
 Arial
   0
+CIRCLE
+  5
+1E1
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+3.0
+ 20
+7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1E2
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+46.998000000000005
+ 20
+7.5
+ 30
+0.0
+ 40
+1.5
+  0
 LWPOLYLINE
   5
-109
+1E3
 330
 17
 100
@@ -9261,7 +14057,7 @@ AcDbPolyline
   0
 MTEXT
   5
-10A
+1E4
 330
 17
 100
@@ -9286,6 +14082,50 @@ AcDbMText
 APTO 1010
   7
 Arial
+  0
+CIRCLE
+  5
+1E5
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+53.0
+ 20
+7.5
+ 30
+0.0
+ 40
+1.5
+  0
+CIRCLE
+  5
+1E6
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDbCircle
+ 10
+830.298
+ 20
+7.5
+ 30
+0.0
+ 40
+1.5
   0
 ENDSEC
   0
@@ -10277,7 +15117,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-10D
+1E9
   0
 DICTIONARYVAR
   5
@@ -10289,11 +15129,11 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-04T00:16:46.649486+00:00
+1.4.4 @ 2026-09-04T01:05:22.076721+00:00
   0
 DICTIONARYVAR
   5
-10D
+1E9
 330
 2D
 100
@@ -10301,7 +15141,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-09-04T00:16:46.710257+00:00
+1.4.4 @ 2026-09-04T01:05:22.170726+00:00
   0
 ENDSEC
   0
