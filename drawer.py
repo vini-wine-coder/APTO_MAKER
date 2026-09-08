@@ -4,10 +4,13 @@ COR_PADRAO = 7  # branco/preto (ACI - AutoCAD Color Index)
 
 
 def draw_plaq(msp, plaq, x, y, largura=50, altura=15):
-    cirle_chek = True
-    x_circle = x + 3
+    if largura < 50:
+        cirle_chek = False
+    else:
+        cirle_chek = True
+    x_circle = x + 4
     y_circle = y + 7.5
-    x_scaling = x_circle * 15.666
+    x_scaling = x_circle + 42
     # retângulo
     pontos = [
         (x, y),

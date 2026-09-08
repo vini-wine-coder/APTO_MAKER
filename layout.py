@@ -76,3 +76,35 @@ def get_position_topo_invertido(
     x = col * largura_rect
     y = -row_final * altura_rect
     return (x, y)
+
+
+def get_position_com_offset(
+    indice, largura_rect=50, altura_rect=15, largura_frame=LARGURA_FRAME, y_offset=0
+):
+    """
+    Igual a get_position, mas soma um y_offset fixo — útil para
+    desenhar uma segunda leva de retângulos começando exatamente
+    onde a primeira leva terminou (em cima dela).
+    """
+    por_linha = por_linha_max(largura_rect, largura_frame)
+    col = indice % por_linha
+    row = indice // por_linha
+
+    x = col * largura_rect
+    y = y_offset + row * altura_rect
+    return (x, y)
+
+
+def topo_da_grade(
+    total, largura_rect=50, altura_rect=15, largura_frame=LARGURA_FRAME, y_offset=0
+):
+    """
+    Retorna o y do topo de uma grade desenhada com get_position_com_offset
+    (ou seja: y_offset + altura total ocupada pelas linhas). Use esse
+    valor como y_offset da próxima leva, para empilhar uma em cima da outra.
+    """
+    import math
+
+    por_linha = por_linha_max(largura_rect, largura_frame)
+    total_linhas = math.ceil(total / por_linha)
+    return y_offset + total_linhas * altura_rect
