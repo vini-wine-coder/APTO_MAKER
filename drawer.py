@@ -39,7 +39,7 @@ def draw_plaq(msp, plaq, x, y, largura=50, altura=15, cor=COR_PADRAO):
         msp.add_circle((x_scaling, y_circle), radius=1.5, dxfattribs={"color": 1})
 
 
-def draw_border(msp, largura, altura, x0, y0, cor=1):
+def draw_border(msp, largura, altura, x0=0, y0=0, cor=1):
     pontos = [
         (x0, y0),
         (x0 + largura, y0),

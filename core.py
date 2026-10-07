@@ -6,17 +6,17 @@ import drawer
 COR = 5  # ACI: 1=vermelho, 2=amarelo, 3=verde, 4=ciano, 5=azul, 6=magenta, 7=branco/preto
 LARGURA_BORDA = 660
 ALTURA_BORDA = 490
+ALTURA_DISPONIVEL = 360  # orçamento real de conteúdo por folha (deixa margem dentro da borda)
 OFFSET_ENTRE_FOLHAS = 10
+PASSES = ((50, 15), (40, 10), (40, 10))  # (largura, altura) de cada passada, nesta ordem
 
 
 def gerar_dxf(texto_bruto: str, caminho_saida: str) -> dict:
     """
-    Recebe o texto bruto (sequência APTO, uma por linha) e o caminho
-    onde salvar o .dxf. Faz todo o pipeline: parse -> paginação em
-    folhas -> desenho (3 passes: 50x15, 40x15, 40x15) -> salva.
-
-    Retorna um dict com um resumo do que foi gerado.
-    Lança ValueError se o texto não tiver nenhum APTO reconhecível.
+    Pipeline completo: parse -> gera linhas (todas as 50x15 primeiro,
+    depois todas as 40x10, depois todas as 40x10 de novo) -> distribui
+    essas linhas em folhas (fluxo contínuo, sem reiniciar por passada)
+    -> desenha -> salva.
     """
     lines = texto_bruto.splitlines()
     obj_sequenc = constructor.plano(lines)
@@ -24,56 +24,38 @@ def gerar_dxf(texto_bruto: str, caminho_saida: str) -> dict:
     if not obj_sequenc:
         raise ValueError("Nenhum APTO encontrado no texto fornecido.")
 
-    doc = ezdxf.new(dxfversion="R2010")  # DXF 2010/2011, compatível com ZWCAD
+    doc = ezdxf.new(dxfversion="R2010")
     if "Arial" not in doc.styles:
         doc.styles.new("Arial", dxfattribs={"font": "arial.ttf"})
 
     msp = doc.modelspace()
 
-    capacidade = layout.capacidade_por_folha(
-        altura_borda=ALTURA_BORDA, larguras_passes=(50, 40, 40)
-    )
-    folhas = layout.particionar_em_folhas(obj_sequenc, capacidade)
+    linhas = layout.gerar_linhas(obj_sequenc, PASSES)
+    folhas = layout.distribuir_em_folhas(linhas, altura_disponivel=ALTURA_DISPONIVEL)
 
     for sheet_idx, folha in enumerate(folhas):
         x_offset = sheet_idx * (LARGURA_BORDA + OFFSET_ENTRE_FOLHAS)
-        total_folha = len(folha)
 
-        x0_borda, y0_borda = layout.get_position_topo_invertido(0, total_folha)
-        x0_borda += x_offset
+        # borda desta folha: ancorada no topo (y0=ALTURA_BORDA), estende
+        # pra baixo até y=0 — onde o conteúdo (y positivo, de baixo pra
+        # cima) começa.
         drawer.draw_border(
             msp, largura=LARGURA_BORDA, altura=ALTURA_BORDA,
-            x0=x0_borda, y0=y0_borda, cor=1,
+            x0=x_offset, y0=0, cor=1,
         )
 
-        # passe 1: 50x15
-        for local_idx, plaq in enumerate(folha):
-            x, y = layout.get_position_topo_invertido(local_idx, total_folha)
-            drawer.draw_plaq(msp, plaq, x + x_offset, y, cor=COR)
-
-        topo1 = 15  # constante, sempre 0 + altura_rect
-
-        # passe 2: 40x15, começa no topo do passe 1
-        for local_idx, plaq in enumerate(folha):
-            x, y = layout.get_position_com_offset(
-                local_idx, largura_rect=40, altura_rect=10, y_offset=topo1
-            )
-            drawer.draw_plaq(msp, plaq, x + x_offset, y, largura=40, altura=10, cor=COR)
-
-        topo2 = layout.topo_da_grade(total_folha, largura_rect=40, altura_rect=10, y_offset=topo1)
-
-        # passe 3: 40x15 de novo, começa no topo do passe 2
-        for local_idx, plaq in enumerate(folha):
-            x, y = layout.get_position_com_offset(
-                local_idx, largura_rect=40, altura_rect=10, y_offset=topo2
-            )
-            drawer.draw_plaq(msp, plaq, x + x_offset, y, largura=40, altura=10, cor=COR)
+        for linha, y_local in folha:
+            largura_rect = linha["largura"]
+            altura_rect = linha["altura"]
+            for col_idx, plaq in enumerate(linha["itens"]):
+                x = col_idx * largura_rect + x_offset
+                y = y_local
+                drawer.draw_plaq(msp, plaq, x, y, largura=largura_rect, altura=altura_rect, cor=COR)
 
     doc.saveas(caminho_saida)
 
     return {
         "total": len(obj_sequenc),
         "folhas": len(folhas),
-        "capacidade_por_folha": capacidade,
         "caminho": caminho_saida,
     }

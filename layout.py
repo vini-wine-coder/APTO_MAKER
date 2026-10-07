@@ -8,61 +8,46 @@ def por_linha_max(largura_rect=50, largura_frame=LARGURA_FRAME):
     return largura_frame // largura_rect
 
 
-def get_position(indice, largura_rect=50, altura_rect=15, largura_frame=LARGURA_FRAME):
-    por_linha = por_linha_max(largura_rect, largura_frame)
-    col = indice % por_linha
-    row = indice // por_linha
-    x = col * largura_rect
-    y = row * altura_rect
-    return (x, y)
+def gerar_linhas(obj_sequenc, passes, largura_frame=LARGURA_FRAME):
+    """
+    Gera a sequência de LINHAS (não de folhas) na ordem certa:
+    primeiro TODAS as linhas da passada 1, depois TODAS da passada 2,
+    depois TODAS da passada 3 — não mistura passadas por item.
+
+    `passes` é uma lista de (largura_rect, altura_rect), uma por passada.
+    Cada linha é um dict: {"itens": [...], "largura": .., "altura": ..}
+    """
+    linhas = []
+    for largura_rect, altura_rect in passes:
+        por_linha = por_linha_max(largura_rect, largura_frame)
+        for i in range(0, len(obj_sequenc), por_linha):
+            itens = obj_sequenc[i:i + por_linha]
+            linhas.append({"itens": itens, "largura": largura_rect, "altura": altura_rect})
+    return linhas
 
 
-def get_position_topo_invertido(indice, total, largura_rect=50, altura_rect=15,
-                                 largura_frame=LARGURA_FRAME):
-    por_linha = por_linha_max(largura_rect, largura_frame)
-    col = indice % por_linha
-    row = indice // por_linha
-    total_linhas = math.ceil(total / por_linha)
-    row_final = total_linhas - 1 - row
-    x = col * largura_rect
-    y = -row_final * altura_rect
-    return (x, y)
+def distribuir_em_folhas(linhas, altura_disponivel):
+    """
+    Distribui as linhas (já geradas por gerar_linhas) em folhas,
+    empilhando até estourar o orçamento de altura por folha.
+    Continua o fluxo — não reinicia a cada passada nem a cada item.
 
+    Retorna uma lista de folhas; cada folha é uma lista de
+    (linha, y_local) — y_local é o y (de baixo pra cima) dentro da folha.
+    """
+    folhas = []
+    folha_atual = []
+    altura_usada = 0
 
-def get_position_com_offset(indice, largura_rect=50, altura_rect=15,
-                             largura_frame=LARGURA_FRAME, y_offset=0):
-    por_linha = por_linha_max(largura_rect, largura_frame)
-    col = indice % por_linha
-    row = indice // por_linha
-    x = col * largura_rect
-    y = y_offset + row * altura_rect
-    return (x, y)
+    for linha in linhas:
+        if altura_usada + linha["altura"] > altura_disponivel:
+            folhas.append(folha_atual)
+            folha_atual = []
+            altura_usada = 0
+        folha_atual.append((linha, altura_usada))
+        altura_usada += linha["altura"]
 
+    if folha_atual:
+        folhas.append(folha_atual)
 
-def topo_da_grade(total, largura_rect=50, altura_rect=15,
-                   largura_frame=LARGURA_FRAME, y_offset=0):
-    por_linha = por_linha_max(largura_rect, largura_frame)
-    total_linhas = math.ceil(total / por_linha)
-    return y_offset + total_linhas * altura_rect
-
-
-def capacidade_por_folha(altura_borda=490, altura_rect=15,
-                          largura_frame=LARGURA_FRAME,
-                          larguras_passes=(50, 40, 40)):
-    def altura_total(k):
-        total_linhas = 0
-        for largura_rect in larguras_passes:
-            por_linha = largura_frame // largura_rect
-            total_linhas += math.ceil(k / por_linha) if k > 0 else 0
-        return total_linhas * altura_rect
-
-    capacidade = 0
-    k = 1
-    while altura_total(k) <= altura_borda:
-        capacidade = k
-        k += 1
-    return capacidade
-
-
-def particionar_em_folhas(obj_sequenc, capacidade):
-    return [obj_sequenc[i:i + capacidade] for i in range(0, len(obj_sequenc), capacidade)]
+    return folhas
