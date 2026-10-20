@@ -48,3 +48,17 @@ def draw_border(msp, largura, altura, x0=0, y0=0, cor=1):
         (x0, y0),
     ]
     msp.add_lwpolyline(pontos, close=True, dxfattribs={"color": cor})
+
+
+def draw_nome_sequencia(msp, nome, x, y, altura_texto=10, cor=COR_PADRAO):
+    """
+    Escreve o nome da sequencia em (x, y), ancorado pela BORDA DIREITA do texto
+    (attachment 6 = middle-right). Assim um nome comprido cresce pra esquerda,
+    se afastando das folhas, e nunca invade a borda vermelha.
+    """
+    mtext = msp.add_mtext(nome, dxfattribs={
+        "style": "Arial",
+        "char_height": altura_texto,
+        "color": cor,
+    })
+    mtext.set_location(insert=(x, y), attachment_point=6)
