@@ -123,6 +123,20 @@ class App(ctk.CTk):
             font=ctk.CTkFont(size=11),
         )
         self.label_dicas.grid(row=8, column=0, sticky="w", pady=(8, 0))
+        # Código existente no final de _montar_janela:
+        self.label_dicas = ctk.CTkLabel(
+            painel, text=TEXTO_ATALHOS, text_color=COR_DICA, justify="left",
+            font=ctk.CTkFont(size=11),
+        )
+        self.label_dicas.grid(row=8, column=0, sticky="w", pady=(8, 0))
+
+        # NOVO CÓDIGO: Adicionar texto no canto inferior direito
+        self.label_versao = ctk.CTkLabel(
+            painel, text="APTO MAKER v1.0.0 - Vinicius F. Souto", text_color=COR_DICA, 
+            font=ctk.CTkFont(size=10)
+        )
+        self.label_versao.grid(row=9, column=0, sticky="e", pady=(0, 0))
+
 
     def _ajustar_quebra(self, evento):
         # a largura do evento e em pixels reais; o wraplength do label e na escala da interface
