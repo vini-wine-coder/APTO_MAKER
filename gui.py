@@ -11,6 +11,13 @@ COR_SELECIONADA = ("#3B8ED0", "#1F6AA5")  # mesmo azul padrao do tema, para dest
 COR_HOVER = ("gray75", "gray28")
 COR_DICA = ("gray40", "gray60")
 
+# (chave em core.MODOS, texto do botao)
+OPCOES_MODO = (
+    ("normal", "Normal (50x15 + 2× 40x10)"),
+    ("50x15", "Só 50x15"),
+    ("40x10", "Só 40x10"),
+)
+
 TEXTO_ATALHOS = (
     "Atalhos:  Ctrl+N nova  ·  Ctrl+1…9 trocar  ·  F2 renomear  ·  "
     "Ctrl+S salvar como  ·  Ctrl+Enter gerar  ·  Ctrl+Delete excluir"
@@ -41,9 +48,9 @@ class App(ctk.CTk):
         largura = min(960, int(self.winfo_screenwidth() * 0.92 / ESCALA))
         altura = min(600, int(self.winfo_screenheight() * 0.88 / ESCALA))
         self.geometry(f"{largura}x{altura}")
-        self.minsize(640, 420)
+        self.minsize(820, 440)  # menor que isso a linha dos 3 radios fica cortada
 
-        # cada sequencia e um dict: nome, caixa (textbox propria), linha, botao, excluir
+        # cada sequencia e um dict: nome, modo, caixa (textbox propria), linha, botao, excluir
         self.sequencias = []
         self.atual = None  # a sequencia que aparece na area de texto
         self.caminho_saida = None
@@ -75,7 +82,7 @@ class App(ctk.CTk):
         painel = ctk.CTkFrame(self, fg_color="transparent")
         painel.grid(row=0, column=1, sticky="nsew", padx=(5, 15), pady=15)
         painel.grid_columnconfigure(0, weight=1)
-        painel.grid_rowconfigure(3, weight=1)
+        painel.grid_rowconfigure(4, weight=1)
         painel.bind("<Configure>", self._ajustar_quebra)  # textos longos quebram na largura do painel
 
         ctk.CTkLabel(painel, text="Nome da sequência:").grid(row=0, column=0, sticky="w")
@@ -84,28 +91,38 @@ class App(ctk.CTk):
         self.entrada_nome.bind("<Return>", self._enter_no_nome)
         self.entrada_nome.bind("<FocusOut>", lambda e: self.confirmar_nome())
 
-        ctk.CTkLabel(painel, text="Sequência APTO (uma por linha):").grid(row=2, column=0, sticky="w")
+        # modo de desenho da sequencia aberta (cada sequencia guarda o seu)
+        self.var_modo = ctk.StringVar(value=core.MODO_PADRAO)
+        modos = ctk.CTkFrame(painel, fg_color="transparent")
+        modos.grid(row=2, column=0, sticky="w", pady=(0, 10))
+        ctk.CTkLabel(modos, text="Desenhar:").pack(side="left", padx=(0, 12))
+        for valor, texto in OPCOES_MODO:
+            ctk.CTkRadioButton(
+                modos, text=texto, variable=self.var_modo, value=valor, command=self._mudar_modo
+            ).pack(side="left", padx=(0, 16))
+
+        ctk.CTkLabel(painel, text="Placas (uma por linha):").grid(row=3, column=0, sticky="w")
         self.area_texto = ctk.CTkFrame(painel, fg_color="transparent")
-        self.area_texto.grid(row=3, column=0, sticky="nsew", pady=(2, 0))
+        self.area_texto.grid(row=4, column=0, sticky="nsew", pady=(2, 0))
         self.area_texto.grid_rowconfigure(0, weight=1)
         self.area_texto.grid_columnconfigure(0, weight=1)
 
         self.label_caminho = ctk.CTkLabel(painel, text="Nenhum arquivo selecionado ainda.", justify="left")
-        self.label_caminho.grid(row=4, column=0, sticky="w", pady=(10, 0))
+        self.label_caminho.grid(row=5, column=0, sticky="w", pady=(10, 0))
 
         botoes = ctk.CTkFrame(painel, fg_color="transparent")
-        botoes.grid(row=5, column=0, sticky="w", pady=10)
+        botoes.grid(row=6, column=0, sticky="w", pady=10)
         ctk.CTkButton(botoes, text="Salvar como...", command=self.escolher_caminho).pack(side="left", padx=(0, 10))
         ctk.CTkButton(botoes, text="Gerar DXF", command=self.gerar).pack(side="left")
 
         self.label_status = ctk.CTkLabel(painel, text="", justify="left")
-        self.label_status.grid(row=6, column=0, sticky="w")
+        self.label_status.grid(row=7, column=0, sticky="w")
 
         self.label_dicas = ctk.CTkLabel(
             painel, text=TEXTO_ATALHOS, text_color=COR_DICA, justify="left",
             font=ctk.CTkFont(size=11),
         )
-        self.label_dicas.grid(row=7, column=0, sticky="w", pady=(8, 0))
+        self.label_dicas.grid(row=8, column=0, sticky="w", pady=(8, 0))
 
     def _ajustar_quebra(self, evento):
         # a largura do evento e em pixels reais; o wraplength do label e na escala da interface
@@ -115,6 +132,12 @@ class App(ctk.CTk):
 
     def _status(self, texto, cor):
         self.label_status.configure(text=texto, text_color=cor)
+
+    def _mudar_modo(self):
+        # o clique no radio grava o modo na sequencia aberta
+        if self.atual is not None:
+            self.atual["modo"] = self.var_modo.get()
+            self.atual["caixa"].focus()  # devolve o foco pra caixa, pra continuar digitando
 
     # ----------------------------------------------------------- atalhos
     @staticmethod
@@ -198,7 +221,7 @@ class App(ctk.CTk):
         linha = ctk.CTkFrame(self.lista, fg_color="transparent")
         linha.pack(fill="x", pady=2)
 
-        seq = {"nome": nome, "caixa": caixa, "linha": linha}
+        seq = {"nome": nome, "modo": core.MODO_PADRAO, "caixa": caixa, "linha": linha}
         seq["botao"] = ctk.CTkButton(
             linha, anchor="w", fg_color="transparent", hover_color=COR_HOVER,
             command=lambda: self.selecionar(seq),
@@ -221,7 +244,7 @@ class App(ctk.CTk):
         return seq
 
     def _atualizar_botao(self, seq):
-        n = core.contar_aptos(seq["caixa"].get("1.0", "end"))
+        n = core.contar_placas(seq["caixa"].get("1.0", "end"))
         seq["botao"].configure(text=f"{seq['nome']}  ({n})")
 
     def _atualizar_botoes_excluir(self):
@@ -239,6 +262,7 @@ class App(ctk.CTk):
 
         self.entrada_nome.delete(0, "end")
         self.entrada_nome.insert(0, seq["nome"])
+        self.var_modo.set(seq["modo"])  # os radios mostram o modo desta sequencia
         for s in self.sequencias:
             s["botao"].configure(fg_color=COR_SELECIONADA if s is seq else "transparent")
         seq["caixa"].focus()
@@ -303,10 +327,10 @@ class App(ctk.CTk):
 
     def gerar(self):
         self.confirmar_nome()  # garante que um nome em edicao entre no arquivo
-        pares = [(s["nome"], s["caixa"].get("1.0", "end")) for s in self.sequencias]
+        sequencias = [(s["nome"], s["caixa"].get("1.0", "end"), s["modo"]) for s in self.sequencias]
 
-        if not any(core.contar_aptos(texto) for _, texto in pares):
-            self._status("Digite pelo menos uma sequência com APTOs primeiro.", "orange")
+        if not any(core.contar_placas(texto) for _, texto, _ in sequencias):
+            self._status("Digite pelo menos uma linha de texto primeiro.", "orange")
             return
 
         if not self.caminho_saida:
@@ -314,17 +338,17 @@ class App(ctk.CTk):
             return
 
         try:
-            r = core.gerar_dxf(pares, self.caminho_saida)
+            r = core.gerar_dxf(sequencias, self.caminho_saida)
         except Exception as e:
             self._status(f"Erro: {e}", "red")
             return
 
         msg = (
-            f"OK: {r['sequencias']} sequência(s), {r['total']} apartamentos, "
+            f"OK: {r['sequencias']} sequência(s), {r['total']} placas, "
             f"{r['folhas']} folha(s) -> {r['caminho']}"
         )
         if r["puladas"]:
-            msg += f"\nSem APTO, ficaram de fora: {', '.join(r['puladas'])}"
+            msg += f"\nSem texto, ficaram de fora: {', '.join(r['puladas'])}"
         self._status(msg, "green")
         abrir_pasta(r["caminho"])
 
