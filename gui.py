@@ -6,7 +6,7 @@ import customtkinter as ctk
 
 import core
 
-ESCALA = 1.5  # tamanho da interface: 1.0 = padrao, 2.0 = o dobro. Se ficar grande/pequeno demais, mexa so aqui.
+ESCALA = 1.0  # tamanho da interface: 1.0 = padrao, 2.0 = o dobro. Se ficar grande/pequeno demais, mexa so aqui.
 COR_SELECIONADA = ("#3B8ED0", "#1F6AA5")  # mesmo azul padrao do tema, para destacar a sequencia aberta
 COR_HOVER = ("gray75", "gray28")
 COR_DICA = ("gray40", "gray60")
